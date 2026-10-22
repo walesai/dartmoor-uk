@@ -52,8 +52,8 @@ export default function WeatherPage() {
       </div>
 
       <div className="grid md:grid-cols-2 gap-6 mb-10">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Haytor%2C_May_2011_2.jpg/1280px-Haytor%2C_May_2011_2.jpg" alt="Haytor sunny view" className="rounded-3xl w-full h-64 object-cover shadow-lg" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/View_to_Sharpitor_from_Meavy.JPG/1280px-View_to_Sharpitor_from_Meavy.JPG" alt="Dartmoor landscape" className="rounded-3xl w-full h-64 object-cover shadow-lg" />
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1280&q=80" alt="Haytor sunny view" className="rounded-3xl w-full h-64 object-cover shadow-lg" />
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1280&q=80" alt="Dartmoor landscape" className="rounded-3xl w-full h-64 object-cover shadow-lg" />
       </div>
 
       <h2 className="text-2xl font-bold text-sky-800 mb-4">7-Day Outlook</h2>

@@ -25,9 +25,9 @@ export default function Home() {
 
       <section className="max-w-6xl mx-auto px-4 -mt-10 relative z-10">
         <div className="grid md:grid-cols-3 gap-4">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Haytor%2C_May_2011_2.jpg/1280px-Haytor%2C_May_2011_2.jpg" alt="Haytor Rocks" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/View_to_Sharpitor_from_Meavy.JPG/1280px-View_to_Sharpitor_from_Meavy.JPG" alt="Dartmoor view" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Dartmoor_ponies._%2843613314294%29.jpg/960px-Dartmoor_ponies._%2843613314294%29.jpg" alt="Dartmoor ponies" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1280&q=80" alt="Haytor Rocks" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
+          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1280&q=80" alt="Dartmoor view" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
+          <img src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&w=1280&q=80" alt="Dartmoor ponies" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
         </div>
       </section>
 
@@ -52,10 +52,10 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-sky-800 mb-10 text-center">Activities & Views</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: 'Haytor', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Haytor%2C_May_2011_2.jpg/800px-Haytor%2C_May_2011_2.jpg' },
-              { name: 'Walking', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/On_Dartmoor.jpg/800px-On_Dartmoor.jpg' },
-              { name: 'Burrator', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Burrator_Reservoir_from_Sheeps_Tor_Dam_-_geograph.org.uk_-_4633766.jpg/800px-Burrator_Reservoir_from_Sheeps_Tor_Dam_-_geograph.org.uk_-_4633766.jpg' },
-              { name: 'Ponies', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Dartmoor_ponies._%2843613314294%29.jpg/800px-Dartmoor_ponies._%2843613314294%29.jpg' },
+              { name: 'Haytor', img: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80' },
+              { name: 'Walking', img: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80' },
+              { name: 'Burrator', img: 'https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=800&q=80' },
+              { name: 'Ponies', img: 'https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&w=800&q=80' },
             ].map((spot) => (
               <div key={spot.name} className="glass rounded-3xl overflow-hidden card-hover">
                 <img src={spot.img} alt={spot.name} className="h-40 w-full object-cover" />
