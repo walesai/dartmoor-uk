@@ -10,6 +10,7 @@ const walks = [
     difficulty: 'Easy–Moderate',
     time: '1.5–2.5 hours',
     description: 'Classic loop linking two of the most popular tors, with optional detour to the medieval village. Follows moorland tracks and granite paths.',
+    img: '/images/haytor.jpg',
   },
   {
     name: 'Burrator Reservoir Circuit',
@@ -17,6 +18,7 @@ const walks = [
     difficulty: 'Easy',
     time: '2–3 hours',
     description: 'Flat and scenic walk or cycle around the reservoir with views of surrounding tors. Suitable for families on a sunny day.',
+    img: '/images/burrator.jpg',
   },
   {
     name: 'Grimspound & Hameldown',
@@ -24,6 +26,7 @@ const walks = [
     difficulty: 'Moderate',
     time: 'Half day',
     description: 'Combine the Bronze Age settlement with higher ground on Hameldown for wider views across the moor.',
+    img: '/images/grimspound.jpg',
   },
 ];
 
@@ -35,14 +38,17 @@ export default function Walks() {
 
       <div className="space-y-8">
         {walks.map((walk) => (
-          <article key={walk.name} className="glass rounded-3xl p-8 card-hover">
-            <h2 className="text-2xl font-bold text-sky-700">{walk.name}</h2>
-            <div className="flex flex-wrap gap-4 text-sm font-medium text-sky-600 my-4">
-              <span>Distance: {walk.distance}</span>
-              <span>Difficulty: {walk.difficulty}</span>
-              <span>Time: {walk.time}</span>
+          <article key={walk.name} className="glass rounded-3xl overflow-hidden card-hover">
+            <img src={walk.img} alt={walk.name} className="w-full h-48 object-cover" />
+            <div className="p-8">
+              <h2 className="text-2xl font-bold text-sky-700">{walk.name}</h2>
+              <div className="flex flex-wrap gap-4 text-sm font-medium text-sky-600 my-4">
+                <span>Distance: {walk.distance}</span>
+                <span>Difficulty: {walk.difficulty}</span>
+                <span>Time: {walk.time}</span>
+              </div>
+              <p className="text-slate-600">{walk.description}</p>
             </div>
-            <p className="text-slate-600">{walk.description}</p>
           </article>
         ))}
       </div>
