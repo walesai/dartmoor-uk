@@ -16,44 +16,44 @@ const walks = [
     distance: '~6–8 km depending on route',
     difficulty: 'Easy',
     time: '2–3 hours',
-    description: 'Flat and scenic walk or cycle around the reservoir with views of surrounding tors. Suitable for families.',
+    description: 'Flat and scenic walk or cycle around the reservoir with views of surrounding tors. Suitable for families on a sunny day.',
   },
   {
     name: 'Grimspound & Hameldown',
     distance: 'Variable',
     difficulty: 'Moderate',
     time: 'Half day',
-    description: 'Combine the Bronze Age settlement with higher ground on Hameldown for wider views.',
+    description: 'Combine the Bronze Age settlement with higher ground on Hameldown for wider views across the moor.',
   },
 ];
 
 export default function Walks() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold text-moor-900 mb-4">Walking on Dartmoor</h1>
-      <p className="text-lg text-gray-700 mb-10">Dartmoor offers everything from easy family strolls to challenging long-distance routes. Always check weather and carry a map.</p>
+      <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-sky-600 to-sun-500 bg-clip-text text-transparent mb-4">Walking on Dartmoor</h1>
+      <p className="text-lg text-slate-700 mb-10">Dartmoor offers everything from easy family strolls to challenging long-distance routes. Always check the weather and carry a map.</p>
 
       <div className="space-y-8">
         {walks.map((walk) => (
-          <article key={walk.name} className="bg-white rounded-xl shadow p-6">
-            <h2 className="text-2xl font-semibold text-moor-800">{walk.name}</h2>
-            <div className="flex flex-wrap gap-4 text-sm text-moor-600 my-3">
+          <article key={walk.name} className="glass rounded-3xl p-8 card-hover">
+            <h2 className="text-2xl font-bold text-sky-700">{walk.name}</h2>
+            <div className="flex flex-wrap gap-4 text-sm font-medium text-sky-600 my-4">
               <span>Distance: {walk.distance}</span>
               <span>Difficulty: {walk.difficulty}</span>
               <span>Time: {walk.time}</span>
             </div>
-            <p className="text-gray-700">{walk.description}</p>
+            <p className="text-slate-600">{walk.description}</p>
           </article>
         ))}
       </div>
 
-      <div className="mt-12 bg-amber-50 border border-amber-200 p-6 rounded-xl">
-        <h3 className="text-xl font-semibold text-amber-900 mb-2">Safety Notes</h3>
-        <ul className="list-disc pl-5 space-y-1 text-amber-900">
-          <li>Weather can change quickly – check forecasts and be prepared.</li>
+      <div className="mt-12 glass rounded-3xl p-8 border border-sun-200">
+        <h3 className="text-xl font-bold text-sun-700 mb-3">Safety Notes</h3>
+        <ul className="list-disc pl-5 space-y-2 text-slate-700">
+          <li>Weather can change quickly — check forecasts and be prepared.</li>
           <li>Military firing ranges operate on parts of the moor. Check times before visiting.</li>
           <li>Stick to paths where possible and keep dogs under control near livestock.</li>
-          <li>Wild camping is permitted in certain areas – follow the Dartmoor camping map rules.</li>
+          <li>Wild camping is permitted in certain areas — follow the Dartmoor camping map rules.</li>
         </ul>
       </div>
     </div>

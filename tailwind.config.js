@@ -7,13 +7,31 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        moor: {
-          50: '#f7f8f5',
-          100: '#eef1e9',
-          600: '#4a5d3f',
-          700: '#3d4d34',
-          900: '#1f291c',
+        sky: {
+          50: '#f0f9ff',
+          100: '#e0f2fe',
+          200: '#bae6fd',
+          400: '#38bdf8',
+          500: '#0ea5e9',
+          600: '#0284c7',
+        },
+        sun: {
+          50: '#fefce8',
+          100: '#fef9c3',
+          200: '#fef08a',
+          300: '#fde047',
+          400: '#facc15',
+          500: '#eab308',
+        },
+        warm: {
+          50: '#fff7ed',
+          100: '#ffedd5',
+          200: '#fed7aa',
+          400: '#fb923c',
         }
+      },
+      backgroundImage: {
+        'sunny': 'linear-gradient(135deg, #e0f2fe 0%, #fefce8 50%, #fff7ed 100%)',
       }
     },
   },
