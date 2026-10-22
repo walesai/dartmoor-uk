@@ -8,37 +8,37 @@ const attractions = [
     name: 'Haytor',
     description: 'The most famous granite tor on Dartmoor. Spectacular views, short walks from the car park, nearby visitor centre and the historic granite tramway.',
     location: 'Eastern edge, near Bovey Tracey',
-    img: '/images/haytor.jpg',
+    img: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'Hound Tor',
     description: 'Dramatic rock formations and the well-preserved remains of a deserted medieval village. Popular with walkers and climbers.',
     location: 'Near Manaton / Haytor area',
-    img: '/images/houndtor.jpg',
+    img: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'Burrator Reservoir',
     description: 'Beautiful reservoir with easy walks, cycling and views of surrounding tors. Completed in 1898 to supply Plymouth.',
     location: 'South-west Dartmoor, near Yelverton',
-    img: '/images/burrator.jpg',
+    img: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'Grimspound',
     description: 'Impressive Bronze Age settlement with around 24 hut circles enclosed by a stone wall. One of the best-preserved on the moor.',
     location: 'Near Widecombe-in-the-Moor',
-    img: '/images/grimspound.jpg',
+    img: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'Princetown',
     description: 'Highest town in England, home to Dartmoor Prison and the main National Park Visitor Centre with exhibitions and history.',
     location: 'Central Dartmoor',
-    img: '/images/princetown.jpg',
+    img: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'Widecombe-in-the-Moor',
     description: 'Pretty village with the famous church known as the Cathedral of the Moor, pubs and traditional markets.',
     location: 'Eastern Dartmoor',
-    img: '/images/widecombe.jpg',
+    img: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80',
   },
 ];
 

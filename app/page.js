@@ -25,9 +25,9 @@ export default function Home() {
 
       <section className="max-w-6xl mx-auto px-4 -mt-10 relative z-10">
         <div className="grid md:grid-cols-3 gap-4">
-          <img src="/images/haytor.jpg" alt="Haytor Rocks" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
-          <img src="/images/houndtor.jpg" alt="Hound Tor" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
-          <img src="/images/ponies.jpg" alt="Dartmoor ponies" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1280&q=80" alt="Haytor Rocks" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
+          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1280&q=80" alt="Hound Tor" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1280&q=80" alt="Dartmoor ponies" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
         </div>
       </section>
 
@@ -52,10 +52,10 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-sky-800 mb-10 text-center">Activities & Views</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: 'Haytor', img: '/images/haytor.jpg' },
-              { name: 'Walking', img: '/images/walking.jpg' },
-              { name: 'Burrator', img: '/images/burrator.jpg' },
-              { name: 'Ponies', img: '/images/ponies.jpg' },
+              { name: 'Haytor', img: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80' },
+              { name: 'Walking', img: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80' },
+              { name: 'Burrator', img: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80' },
+              { name: 'Ponies', img: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80' },
             ].map((spot) => (
               <div key={spot.name} className="glass rounded-3xl overflow-hidden card-hover">
                 <img src={spot.img} alt={spot.name} className="h-40 w-full object-cover" />
