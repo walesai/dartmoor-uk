@@ -15,6 +15,7 @@ export default function Header() {
         <nav className="hidden md:flex space-x-6 font-medium text-slate-700">
           <Link href="/" className="hover:text-sky-600 transition">Home</Link>
           <Link href="/attractions" className="hover:text-sky-600 transition">Attractions</Link>
+          <Link href="/activities" className="hover:text-sky-600 transition">Activities</Link>
           <Link href="/walks" className="hover:text-sky-600 transition">Walks</Link>
           <Link href="/weather" className="hover:text-sky-600 transition">Weather</Link>
           <Link href="/about" className="hover:text-sky-600 transition">About</Link>
@@ -27,6 +28,7 @@ export default function Header() {
         <div className="md:hidden glass border-t px-4 py-3 space-y-2 text-slate-700">
           <Link href="/" className="block py-1" onClick={() => setOpen(false)}>Home</Link>
           <Link href="/attractions" className="block py-1" onClick={() => setOpen(false)}>Attractions</Link>
+          <Link href="/activities" className="block py-1" onClick={() => setOpen(false)}>Activities</Link>
           <Link href="/walks" className="block py-1" onClick={() => setOpen(false)}>Walks</Link>
           <Link href="/weather" className="block py-1" onClick={() => setOpen(false)}>Weather</Link>
           <Link href="/about" className="block py-1" onClick={() => setOpen(false)}>About</Link>
