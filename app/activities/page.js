@@ -7,32 +7,32 @@ const activities = [
   {
     name: 'Walking & Hiking',
     description: 'Hundreds of miles of paths and open access land. From easy reservoir circuits to challenging multi-day routes across the high moor. Always check weather and firing times.',
-    img: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80',
+    img: '/images/walking.jpg',
   },
   {
     name: 'Cycling',
     description: 'Quiet lanes, reservoir tracks and the Granite Way. Burrator and the edge of the moor are popular. Respect the National Park code and give way to walkers and horses.',
-    img: 'https://images.unsplash.com/photo-1517649763962-0c623066027b?auto=format&fit=crop&w=800&q=80',
+    img: '/images/burrator.jpg',
   },
   {
     name: 'Horse Riding',
     description: 'Many bridleways and open moorland. Local stables offer treks. Dartmoor ponies are semi-wild — give them space and never feed them.',
-    img: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80',
+    img: '/images/ponies.jpg',
   },
   {
     name: 'Climbing & Scrambling',
     description: 'Granite tors such as Haytor, Hound Tor and Dewerstone offer excellent scrambling and traditional climbing. Check conditions and access.',
-    img: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80',
+    img: '/images/haytor.jpg',
   },
   {
     name: 'Wildlife Watching',
     description: 'Look for Dartmoor ponies, birds of prey, skylarks and, in the right season, rare butterflies. Early morning and late evening are best.',
-    img: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80',
+    img: '/images/ponies.jpg',
   },
   {
     name: 'Photography',
     description: 'Iconic tors, reservoirs, ancient sites and dramatic light. Sunrise and sunset on the moor are spectacular. Leave no trace.',
-    img: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80',
+    img: '/images/houndtor.jpg',
   },
 ];
 

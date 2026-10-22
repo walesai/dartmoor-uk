@@ -10,7 +10,7 @@ const walks = [
     difficulty: 'Easy–Moderate',
     time: '1.5–2.5 hours',
     description: 'Classic loop linking two of the most popular tors, with optional detour to the medieval village. Follows moorland tracks and granite paths.',
-    img: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80',
+    img: '/images/haytor.jpg',
   },
   {
     name: 'Burrator Reservoir Circuit',
@@ -18,7 +18,7 @@ const walks = [
     difficulty: 'Easy',
     time: '2–3 hours',
     description: 'Flat and scenic walk or cycle around the reservoir with views of surrounding tors. Suitable for families on a sunny day.',
-    img: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80',
+    img: '/images/burrator.jpg',
   },
   {
     name: 'Grimspound & Hameldown',
@@ -26,7 +26,7 @@ const walks = [
     difficulty: 'Moderate',
     time: 'Half day',
     description: 'Combine the Bronze Age settlement with higher ground on Hameldown for wider views across the moor.',
-    img: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80',
+    img: '/images/grimspound.jpg',
   },
 ];
 
