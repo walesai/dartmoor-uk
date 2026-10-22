@@ -20,13 +20,13 @@ const attractions = [
     name: 'Burrator Reservoir',
     description: 'Beautiful reservoir with easy walks, cycling and views of surrounding tors. Completed in 1898 to supply Plymouth.',
     location: 'South-west Dartmoor, near Yelverton',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Burrator_Reservoir.jpg/800px-Burrator_Reservoir.jpg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Burrator_Reservoir_from_Sheeps_Tor_Dam_-_geograph.org.uk_-_4633766.jpg/800px-Burrator_Reservoir_from_Sheeps_Tor_Dam_-_geograph.org.uk_-_4633766.jpg',
   },
   {
     name: 'Grimspound',
     description: 'Impressive Bronze Age settlement with around 24 hut circles enclosed by a stone wall. One of the best-preserved on the moor.',
     location: 'Near Widecombe-in-the-Moor',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Grimspound.jpg/800px-Grimspound.jpg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Entrance_to_Grimspound.jpg/800px-Entrance_to_Grimspound.jpg',
   },
   {
     name: 'Princetown',
@@ -38,7 +38,7 @@ const attractions = [
     name: 'Widecombe-in-the-Moor',
     description: 'Pretty village with the famous church known as the Cathedral of the Moor, pubs and traditional markets.',
     location: 'Eastern Dartmoor',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Widecombe-in-the-Moor.jpg/800px-Widecombe-in-the-Moor.jpg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/St-Pancras-Church-Widecombe-in-the-Moor.jpg/800px-St-Pancras-Church-Widecombe-in-the-Moor.jpg',
   },
 ];
 
