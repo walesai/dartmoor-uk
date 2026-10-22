@@ -25,9 +25,9 @@ export default function Home() {
 
       <section className="max-w-6xl mx-auto px-4 -mt-10 relative z-10">
         <div className="grid md:grid-cols-3 gap-4">
-          <img src="/images/haytor.jpg" alt="Haytor Rocks" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
-          <img src="/images/houndtor.jpg" alt="Hound Tor" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
-          <img src="/images/ponies.jpg" alt="Dartmoor ponies" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
+          <img src="/1Kvq9.jpg" alt="Haytor Rocks" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
+          <img src="/WCQJG.jpg" alt="Hound Tor" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
+          <img src="/HBhUe.jpg" alt="Dartmoor ponies" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
         </div>
       </section>
 
@@ -52,10 +52,10 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-sky-800 mb-10 text-center">Activities & Views</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: 'Haytor', img: '/images/haytor.jpg' },
-              { name: 'Walking', img: '/images/walking.jpg' },
-              { name: 'Burrator', img: '/images/burrator.jpg' },
-              { name: 'Ponies', img: '/images/ponies.jpg' },
+              { name: 'Haytor', img: '/1Kvq9.jpg' },
+              { name: 'Walking', img: '/mt5CE.jpg' },
+              { name: 'Burrator', img: '/8SXu3.jpg' },
+              { name: 'Ponies', img: '/HBhUe.jpg' },
             ].map((spot) => (
               <div key={spot.name} className="glass rounded-3xl overflow-hidden card-hover">
                 <img src={spot.img} alt={spot.name} className="h-40 w-full object-cover" />
