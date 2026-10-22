@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div>
-      <section className="relative py-28 px-4 text-center overflow-hidden">
+      <section className="relative py-20 md:py-28 px-4 text-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-sky-100 via-sun-50 to-warm-100 opacity-80" />
         <div className="relative max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-extrabold mb-6 hero-glow bg-gradient-to-r from-sky-600 via-sky-500 to-sun-500 bg-clip-text text-transparent">
@@ -16,10 +16,18 @@ export default function Home() {
             <Link href="/attractions" className="bg-gradient-to-r from-sky-500 to-sky-600 text-white px-8 py-4 rounded-2xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition">
               Explore Attractions
             </Link>
-            <Link href="/walks" className="glass px-8 py-4 rounded-2xl font-semibold text-sky-700 hover:bg-white/90 transition">
-              Walking Routes
+            <Link href="/weather" className="glass px-8 py-4 rounded-2xl font-semibold text-sky-700 hover:bg-white/90 transition">
+              Local Weather
             </Link>
           </div>
+        </div>
+      </section>
+
+      <section className="max-w-6xl mx-auto px-4 -mt-10 relative z-10">
+        <div className="grid md:grid-cols-3 gap-4">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Haytor%2C_May_2011_2.jpg/1280px-Haytor%2C_May_2011_2.jpg" alt="Haytor Rocks" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/View_to_Sharpitor_from_Meavy.JPG/1280px-View_to_Sharpitor_from_Meavy.JPG" alt="Dartmoor view" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Dartmoor_ponies.jpg/1280px-Dartmoor_ponies.jpg" alt="Dartmoor ponies" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
         </div>
       </section>
 
@@ -41,16 +49,19 @@ export default function Home() {
 
       <section className="py-16">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-sky-800 mb-10 text-center">Popular Spots</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-sky-800 mb-10 text-center">Activities & Views</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {['Haytor', 'Hound Tor', 'Burrator Reservoir', 'Grimspound'].map((spot) => (
-              <div key={spot} className="glass rounded-3xl overflow-hidden card-hover">
-                <div className="h-36 bg-gradient-to-br from-sky-400 to-sun-300 flex items-center justify-center text-white text-xl font-bold">
-                  {spot}
-                </div>
+            {[
+              { name: 'Haytor', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Haytor%2C_May_2011_2.jpg/800px-Haytor%2C_May_2011_2.jpg' },
+              { name: 'Walking', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Walking_on_Dartmoor.jpg/800px-Walking_on_Dartmoor.jpg' },
+              { name: 'Burrator', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Burrator_Reservoir.jpg/800px-Burrator_Reservoir.jpg' },
+              { name: 'Ponies', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Dartmoor_ponies.jpg/800px-Dartmoor_ponies.jpg' },
+            ].map((spot) => (
+              <div key={spot.name} className="glass rounded-3xl overflow-hidden card-hover">
+                <img src={spot.img} alt={spot.name} className="h-40 w-full object-cover" />
                 <div className="p-5">
-                  <h3 className="font-semibold text-sky-800">{spot}</h3>
-                  <p className="text-sm text-slate-600 mt-1">A must-see on any sunny Dartmoor day.</p>
+                  <h3 className="font-semibold text-sky-800">{spot.name}</h3>
+                  <p className="text-sm text-slate-600 mt-1">Classic Dartmoor experience.</p>
                 </div>
               </div>
             ))}
@@ -64,10 +75,11 @@ export default function Home() {
       <section className="max-w-4xl mx-auto px-4 py-16 text-center">
         <div className="glass rounded-3xl p-10">
           <h2 className="text-3xl font-bold text-sky-800 mb-4">Plan Your Visit</h2>
-          <p className="text-lg text-slate-700 mb-8">Around 3 million people visit Dartmoor each year. Check the weather, military firing times and parking before you set out. Leave no trace and enjoy the open skies.</p>
-          <Link href="/about" className="inline-block bg-gradient-to-r from-sun-400 to-warm-400 text-slate-900 px-8 py-4 rounded-2xl font-semibold shadow hover:shadow-lg transition">
-            Practical Information
-          </Link>
+          <p className="text-lg text-slate-700 mb-8">Check the local weather, military firing times and parking before you set out. Leave no trace and enjoy the open skies.</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/weather" className="bg-gradient-to-r from-sky-500 to-sky-600 text-white px-8 py-3 rounded-2xl font-semibold">Live Weather</Link>
+            <Link href="/about" className="glass px-8 py-3 rounded-2xl font-semibold text-sky-700">Practical Info</Link>
+          </div>
         </div>
       </section>
     </div>
