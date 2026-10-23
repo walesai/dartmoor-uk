@@ -78,8 +78,8 @@ export default function WeatherPage() {
       </div>
 
       <div className="grid md:grid-cols-2 gap-6 mb-10">
-        <img src="/1Kvq9.jpg" alt="Haytor on a clear day" className="rounded-3xl w-full h-64 object-cover shadow-lg" />
-        <img src="/WCQJG.jpg" alt="Hound Tor landscape" className="rounded-3xl w-full h-64 object-cover shadow-lg" />
+        <img src="/images/1Kvq9.jpg" alt="Haytor on a clear day" className="rounded-3xl w-full h-64 object-cover shadow-lg" />
+        <img src="/images/WCQJG.jpg" alt="Hound Tor landscape" className="rounded-3xl w-full h-64 object-cover shadow-lg" />
       </div>
 
       <h2 className="text-2xl font-bold text-sky-800 mb-4">Today’s Hourly</h2>

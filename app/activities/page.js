@@ -7,32 +7,32 @@ const activities = [
   {
     name: 'Walking & Hiking',
     description: 'Hundreds of miles of paths and open access land. From easy reservoir circuits to challenging multi-day routes across the high moor. Always check weather and firing times.',
-    img: '/mt5CE.jpg',
+    img: '/images/mt5CE.jpg',
   },
   {
     name: 'Cycling',
     description: 'Quiet lanes, reservoir tracks and the Granite Way. Burrator and the edge of the moor are popular. Respect the National Park code and give way to walkers and horses.',
-    img: '/8SXu3.jpg',
+    img: '/images/8SXu3.jpg',
   },
   {
     name: 'Horse Riding',
     description: 'Many bridleways and open moorland. Local stables offer treks. Dartmoor ponies are semi-wild — give them space and never feed them.',
-    img: '/HBhUe.jpg',
+    img: '/images/HBhUe.jpg',
   },
   {
     name: 'Climbing & Scrambling',
     description: 'Granite tors such as Haytor, Hound Tor and Dewerstone offer excellent scrambling and traditional climbing. Check conditions and access.',
-    img: '/1Kvq9.jpg',
+    img: '/images/1Kvq9.jpg',
   },
   {
     name: 'Wildlife Watching',
     description: 'Look for Dartmoor ponies, birds of prey, skylarks and, in the right season, rare butterflies. Early morning and late evening are best.',
-    img: '/HBhUe.jpg',
+    img: '/images/HBhUe.jpg',
   },
   {
     name: 'Photography',
     description: 'Iconic tors, reservoirs, ancient sites and dramatic light. Sunrise and sunset on the moor are spectacular. Leave no trace.',
-    img: '/WCQJG.jpg',
+    img: '/images/WCQJG.jpg',
   },
 ];
 
