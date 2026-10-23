@@ -38,7 +38,7 @@ const attractions = [
     name: 'Widecombe-in-the-Moor',
     description: 'Pretty village with the famous church known as the Cathedral of the Moor, pubs and traditional markets.',
     location: 'Eastern Dartmoor',
-    img: '/images/WCQJG.jpg',
+    img: '/images/Z4dCy.jpg',
   },
 ];
 
