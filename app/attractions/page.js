@@ -32,7 +32,7 @@ const attractions = [
     name: 'Princetown',
     description: 'Highest town in England, home to Dartmoor Prison and the main National Park Visitor Centre with exhibitions and history.',
     location: 'Central Dartmoor',
-    img: '/images/AYhEf.jpg',
+    img: '/images/6ywcF.jpg',
   },
   {
     name: 'Widecombe-in-the-Moor',
