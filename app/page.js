@@ -27,7 +27,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-4">
           <img src="/images/1Kvq9.jpg" alt="Haytor Rocks" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
           <img src="/images/WCQJG.jpg" alt="Hound Tor" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
-          <img src="/images/HBhUe.jpg" alt="Dartmoor ponies" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
+          <img src="/images/9W6fa.jpg" alt="Dartmoor ponies" className="rounded-3xl h-56 w-full object-cover shadow-xl" />
         </div>
       </section>
 
@@ -55,7 +55,7 @@ export default function Home() {
               { name: 'Haytor', img: '/images/1Kvq9.jpg' },
               { name: 'Walking', img: '/images/mt5CE.jpg' },
               { name: 'Burrator', img: '/images/8SXu3.jpg' },
-              { name: 'Ponies', img: '/images/HBhUe.jpg' },
+              { name: 'Ponies', img: '/images/9W6fa.jpg' },
             ].map((spot) => (
               <div key={spot.name} className="glass rounded-3xl overflow-hidden card-hover">
                 <img src={spot.img} alt={spot.name} className="h-40 w-full object-cover" />

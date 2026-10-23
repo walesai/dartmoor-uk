@@ -17,7 +17,7 @@ const activities = [
   {
     name: 'Horse Riding',
     description: 'Many bridleways and open moorland. Local stables offer treks. Dartmoor ponies are semi-wild — give them space and never feed them.',
-    img: '/images/HBhUe.jpg',
+    img: '/images/9W6fa.jpg',
   },
   {
     name: 'Climbing & Scrambling',
@@ -27,7 +27,7 @@ const activities = [
   {
     name: 'Wildlife Watching',
     description: 'Look for Dartmoor ponies, birds of prey, skylarks and, in the right season, rare butterflies. Early morning and late evening are best.',
-    img: '/images/HBhUe.jpg',
+    img: '/images/9W6fa.jpg',
   },
   {
     name: 'Photography',
