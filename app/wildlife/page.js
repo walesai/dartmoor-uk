@@ -8,31 +8,31 @@ const animals = [
     name: 'Dartmoor Ponies',
     desc: 'The most iconic animals on the moor. Semi-wild herds roam freely year-round. Hardy, sure-footed and adapted to the harsh landscape. Never feed them and always give them space.',
     where: 'Widespread across open moorland, especially around Haytor, Princetown and the high moor.',
-    img: '/images/9W6fa.jpg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Dartmoor_Ponys.jpg',
   },
   {
     name: 'Birds of Prey',
     desc: 'Buzzards are common and often seen soaring. You may also spot kestrels, peregrines and, in the right season, hen harriers or merlins over the high ground.',
     where: 'Open moor and tors. Early morning or late afternoon is best.',
-    img: '/images/1Kvq9.jpg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Common_Buzzard_from_the_Crossley_ID_Guide_Britain_and_Ireland.jpg/800px-Common_Buzzard_from_the_Crossley_ID_Guide_Britain_and_Ireland.jpg',
   },
   {
     name: 'Red Deer',
     desc: 'The largest land mammal in Britain. Small numbers live on Dartmoor. Best seen at dawn or dusk in quieter areas of the high moor.',
     where: 'Remote northern and central moor. Stay quiet and keep your distance.',
-    img: '/images/WCQJG.jpg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Red_deer_stag.jpg/800px-Red_deer_stag.jpg',
   },
   {
     name: 'Skylarks & Meadow Birds',
     desc: 'In spring and summer the moor is alive with skylarks singing high above the heather. Also look for meadow pipits, stonechats and wheatears.',
     where: 'Heather and grassland areas, especially on clear sunny days.',
-    img: '/images/mt5CE.jpg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Skylark_%28Alauda_arvensis%29.jpg/800px-Skylark_%28Alauda_arvensis%29.jpg',
   },
   {
     name: 'Butterflies & Insects',
     desc: 'Dartmoor is important for rare butterflies such as the high brown fritillary and pearl-bordered fritillary. Summer is the best time.',
     where: 'Bracken slopes, woodland edges and flower-rich grasslands.',
-    img: '/images/8SXu3.jpg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pearl-bordered_Fritillary.jpg/800px-Pearl-bordered_Fritillary.jpg',
   },
 ];
 
@@ -40,7 +40,7 @@ export default function Wildlife() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
       <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-sky-600 to-sun-500 bg-clip-text text-transparent mb-4">Dartmoor Wildlife</h1>
-      <p className="text-lg text-slate-700 mb-10">From free-roaming ponies to soaring buzzards and rare butterflies — the moor is full of life.</p>
+      <p className="text-lg text-slate-700 mb-10">From free-roaming ponies to soaring buzzards and rare butterflies — the moor is full of life. Images are real photographs.</p>
 
       <div className="space-y-8">
         {animals.map((a) => (
