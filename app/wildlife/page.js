@@ -14,19 +14,19 @@ const animals = [
     name: 'Birds of Prey',
     desc: 'Buzzards are common and often seen soaring. You may also spot kestrels, peregrines and, in the right season, hen harriers or merlins over the high ground.',
     where: 'Open moor and tors. Early morning or late afternoon is best.',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Common_Buzzard_from_the_Crossley_ID_Guide_Britain_and_Ireland.jpg/800px-Common_Buzzard_from_the_Crossley_ID_Guide_Britain_and_Ireland.jpg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/0/01/%D0%A1ommon_buzzard_%28Buteo_buteo%29_in_flight.jpg',
   },
   {
     name: 'Red Deer',
     desc: 'The largest land mammal in Britain. Small numbers live on Dartmoor. Best seen at dawn or dusk in quieter areas of the high moor.',
     where: 'Remote northern and central moor. Stay quiet and keep your distance.',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Red_deer_stag.jpg/800px-Red_deer_stag.jpg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Red_Deer_Cervus_Elaphus_Richmond_Park_2025_01.jpg/960px-Red_Deer_Cervus_Elaphus_Richmond_Park_2025_01.jpg',
   },
   {
     name: 'Skylarks & Meadow Birds',
     desc: 'In spring and summer the moor is alive with skylarks singing high above the heather. Also look for meadow pipits, stonechats and wheatears.',
     where: 'Heather and grassland areas, especially on clear sunny days.',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Skylark_%28Alauda_arvensis%29.jpg/800px-Skylark_%28Alauda_arvensis%29.jpg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/5/58/S%C3%A5ngl%C3%A4rka%2C_Alauda_arvensis%2C_Eurasian_skylark.jpg',
   },
   {
     name: 'Butterflies & Insects',
