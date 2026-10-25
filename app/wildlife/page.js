@@ -45,7 +45,9 @@ export default function Wildlife() {
       <div className="space-y-8">
         {animals.map((a) => (
           <article key={a.name} className="glass rounded-3xl overflow-hidden card-hover">
-            <img src={a.img} alt={a.name} className="w-full h-52 object-cover" />
+            <div className="bg-slate-100 flex items-center justify-center">
+              <img src={a.img} alt={a.name} className="w-full max-h-96 object-contain" />
+            </div>
             <div className="p-6">
               <h2 className="text-2xl font-bold text-sky-700 mb-2">{a.name}</h2>
               <p className="text-slate-600 mb-3">{a.desc}</p>
