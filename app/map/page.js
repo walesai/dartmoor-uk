@@ -46,6 +46,11 @@ const places = [
   { name: 'Wistman’s Wood', lat: 50.578, lng: -3.963, type: 'Woodland', desc: 'Ancient stunted oak woodland' },
   { name: 'Fingle Bridge', lat: 50.690, lng: -3.780, type: 'History', desc: 'Historic bridge and woodland walks' },
   { name: 'Merrivale', lat: 50.555, lng: -4.040, type: 'History', desc: 'Stone rows and prehistoric sites' },
+
+  // Wildlife spots
+  { name: 'Pony herds (Haytor area)', lat: 50.580, lng: -3.750, type: 'Wildlife', desc: 'Good chance of seeing Dartmoor ponies' },
+  { name: 'High moor birds', lat: 50.620, lng: -3.950, type: 'Wildlife', desc: 'Buzzards, skylarks and other moorland birds' },
+  { name: 'Deer country (north)', lat: 50.670, lng: -3.980, type: 'Wildlife', desc: 'Quieter area — possible red deer at dawn/dusk' },
 ];
 
 export default function MapPage() {
@@ -71,7 +76,7 @@ export default function MapPage() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
       <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-sky-600 to-sun-500 bg-clip-text text-transparent mb-4">Interactive Map</h1>
-      <p className="text-lg text-slate-700 mb-8">Explore more of Dartmoor — tors, villages, reservoirs and ancient sites. Click markers for details.</p>
+      <p className="text-lg text-slate-700 mb-8">Explore more of Dartmoor — tors, villages, reservoirs, ancient sites and wildlife spots. Click markers for details.</p>
 
       <div className="glass rounded-3xl overflow-hidden mb-10" style={{ height: '520px' }}>
         <MapView places={places} />
