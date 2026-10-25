@@ -18,6 +18,7 @@ export default function Header() {
           <Link href="/attractions" className="hover:text-sky-600 transition">Attractions</Link>
           <Link href="/activities" className="hover:text-sky-600 transition">Activities</Link>
           <Link href="/walks" className="hover:text-sky-600 transition">Walks</Link>
+          <Link href="/wildlife" className="hover:text-sky-600 transition">Wildlife</Link>
           <Link href="/tools" className="hover:text-sky-600 transition">Tools</Link>
           <Link href="/stories" className="hover:text-sky-600 transition">Stories</Link>
           <Link href="/weather" className="hover:text-sky-600 transition">Weather</Link>
@@ -34,6 +35,7 @@ export default function Header() {
           <Link href="/attractions" className="block py-1" onClick={() => setOpen(false)}>Attractions</Link>
           <Link href="/activities" className="block py-1" onClick={() => setOpen(false)}>Activities</Link>
           <Link href="/walks" className="block py-1" onClick={() => setOpen(false)}>Walks</Link>
+          <Link href="/wildlife" className="block py-1" onClick={() => setOpen(false)}>Wildlife</Link>
           <Link href="/tools" className="block py-1" onClick={() => setOpen(false)}>Tools</Link>
           <Link href="/stories" className="block py-1" onClick={() => setOpen(false)}>Stories</Link>
           <Link href="/weather" className="block py-1" onClick={() => setOpen(false)}>Weather</Link>
